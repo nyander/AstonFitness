@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aston Fitness: Sign Up</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link href="css/layout.css" rel="stylesheet" />
+    <script src="js/validate_password.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <nav id="main-header" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#sign-in-toggle"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand">Aston Fitness</div>
+        </div>
+        <div class="collapse navbar-collapse" id="sign-in-toggle">
+          <form id="sign-id" class="navbar-form navbar-right">
+            <input type="email"
+              class="form-control"
+              placeholder="Email"
+              required
+              pattern=".+(\.ac\.uk|\.edu)"
+              title="Please enter a UK or US university email address."/>
+            <input type="password"
+              class="form-control"
+              placeholder="Password"
+              required />
+            <input type="submit"
+              class="btn btn-success"
+              value="Sign In" />
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <form id="sign-up">
+        <div class="form-group">
+          <input type="email"
+            class="form-control"
+            placeholder="Email"
+            required
+            pattern=".+(\.ac\.uk|\.edu)"
+            title="Please enter a UK or US university email address."/>
+        </div>
+        <div class="form-group">
+          <input type="password"
+            class="form-control"
+            placeholder="Password"
+            name="pass"
+            required />
+        </div>
+        <div class="form-group">
+          <input type="password"
+            class="form-control"
+            placeholder="Confirm Password"
+            name="confirm_pass"
+            required />
+        </div>
+        <input type="submit"
+          class="form-control btn btn-success"
+          value="Sign Up" />
+      </form>
+    </main>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

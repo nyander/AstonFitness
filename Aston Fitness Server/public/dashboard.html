@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>dashboard </title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="/js/data.js"></script>
+  <link rel="stylesheet"
+   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+</head>
+<body>
+    <nav id="main-header" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar brand">FASTON</div>
+        </div>
+          <form id="sign-in" class="navbar-form navbar-right">
+            <input type="submit"
+            class = "btn btn-primary"
+            value="Sign out"/>
+            </form>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <div class="row">
+        <div class="col-md-6 dash-component">
+          <header>Run Time by Date</header>
+          <div id="run-time-by-date"></div>
+        </div>
+        <div class="col-md-6 dash-component">
+          <header>Run Time by BMI</header>
+          <div id="run-time-by-bmi"></div>
+        </div>
+        <div class="col-md-6 dash-component">
+          <header>Runs per Month</header>
+          <div id="runs-per-month"></div>
+        </div>
+        <div class="col-md-6 dash-component">
+          <header>Injury Probability by Recent Run Number</header>
+          <div id="injury-probability-by-recent-run-number"></div>
+        </div>
+      </div>
+    </main>
+    <script src= "/lib/dashboard.js"></script>
+    <script src= "/js/dashboard.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src ="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

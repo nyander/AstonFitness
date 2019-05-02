@@ -1,0 +1,26 @@
+
+* {box-sizing: border-box;}
+
+
+/*.container {width: 100%}
+
+@media (min-width: 800px) {
+  .container {
+    width:75%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width:50%;
+  }*/
+
+  .container {width:100%;}
+
+@media (min-width:800px){
+  .container {
+    width:50%;
+  }
+}
+
+}

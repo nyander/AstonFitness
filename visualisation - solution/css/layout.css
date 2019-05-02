@@ -1,0 +1,44 @@
+#join-up-message {
+  height: 500px;
+  text-align: center;
+}
+
+#join-up-message h2 {
+  padding-top: 100px;
+}
+
+#benefits {
+  text-align: center;
+}
+
+.benefit i {
+  font-size: 36px;
+}
+
+.benefit p {
+  text-align: justify;
+}
+
+#testimonials h2 {
+  text-align: center;
+}
+
+#testimonials blockquote {
+  text-align: justify;
+}
+
+#testimonials blockquote p {
+  font-style: italic;
+}
+
+#testimonials blockquote footer {
+  color: #444;
+}
+
+.dash-component header {
+  background-color: #ccc;
+  padding: 10px 5px;
+  margin-left: -5px;
+  border-radius: 4px;
+  font-size: 14px;
+}

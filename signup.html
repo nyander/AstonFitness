@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Fitness Landing page: Sign up page </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet"/>
+  <link href="css/layout.css" rel="stylesheet"/>
+  <script src= "js/validate_password.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <header id="main-header">
+  <h1>FASTON</h1>
+    <form id="sign-in">
+         <input type="email" placeholder="Email" required pattern=".+(\.ac\.uk|\.edu)"/>
+         <input type="password" placeholder="Password" required/>
+        <input type="submit" value="Sign In"/>
+        <a href="http://www.google.com"> Forgot Password? </a>
+    </form>
+  </header>
+  <main>
+    <form id="sign-up">
+  <input type="email"
+    placeholder="Email"
+    required
+    pattern=".+(\.ac\.uk|\.edu)"
+    title="Please ensure that email contains @ and has a domain of .ac.uk or .edu"/>
+  <input type="password"
+    placeholder="Password"
+    name="pass"
+    required/>
+    <input type="password"
+    placeholder="Confirm Password"
+    name="confirm_pass"
+    required/>
+  <input type="submit"
+    value="Signup"/>
+      </form>
+    </main>
+  </body>
+</html>

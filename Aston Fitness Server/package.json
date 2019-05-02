@@ -1,0 +1,9 @@
+{
+  "dependencies":{
+    "body-parser":"1.*",
+    "express":"4.*",
+    "express-jwt":"3.*",
+    "http-status":"0.2.*",
+    "jsonwebtoken":"7.*"
+  }
+}

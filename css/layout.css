@@ -1,0 +1,50 @@
+
+
+#sign-up-message {height: 500px;
+  text-align: center;
+  background-color: #fccdcc;
+}
+
+#sign-up-message h2 {
+  padding-top: 100px;
+}
+
+#benefits {
+  text-align: center;
+}
+
+.benefit p {
+  text-align: justify;
+}
+.benefit i {
+  font-size:40px;
+}
+
+#testimonials h2 {
+  text-align: center;}
+
+#testimonials blockquote {
+  text-align: justify;
+}
+
+#testimonials blockquote p {
+  font-style: italic;
+}
+#testimonials blockquote footer {
+  color: #444;
+}
+
+#testimonials blockquote footer::before {
+  content: "-"
+}
+#sign-up {
+padding-top: 200px; /* margin is as color applies to padding not margin*/
+background-color: #fccdcc;
+height: 300px;
+}
+#sign-up input {
+  width : 30%;
+  display: block;
+  margin: 0 auto 10px;
+  text-align: center;
+}

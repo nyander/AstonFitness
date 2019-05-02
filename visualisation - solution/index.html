@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aston Fitness</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+  </head>
+  <body>
+    <nav id="main-header" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#sign-in-toggle"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand">Aston Fitness</div>
+        </div>
+        <div class="collapse navbar-collapse" id="sign-in-toggle">
+          <form id="sign-id" class="navbar-form navbar-right">
+            <input type="email"
+              class="form-control"
+              placeholder="Email"
+              required
+              pattern=".+(\.ac\.uk|\.edu)"
+              title="Please enter a UK or US university email address."/>
+            <input type="password"
+              class="form-control"
+              placeholder="Password"
+              required />
+            <input type="submit"
+              class="btn btn-success"
+              value="Sign In" />
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+    <main>
+      <section id="join-up-message" class="jumbotron">
+        <div class="container">
+          <h2>Exercise Smarter. Not Harder.</h2>
+          <p>
+            We give you the information that you need to make the best choices about your fitness.
+          </p>
+          <button class="btn btn-success">Sign Up Now!</button>
+        </div>
+      </section>
+
+      <div class="container">
+      <section id="benefits" class="row">
+        <h2 class="col-xs-12">Why Join Up?</h2>
+        <div class="benefit col-sm-4">
+          <i class="material-icons">trending_up</i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et sapien orci. Pellentesque posuere ullamcorper lacus feugiat interdum. Nulla facilisi. Integer vitae erat mollis, rutrum neque at, lacinia eros. Sed ullamcorper nulla id diam venenatis pellentesque. Duis eu turpis at magna consectetur luctus.
+          </p>
+        </div>
+        <div class="benefit col-sm-4">
+          <i class="material-icons">devices</i>
+          <p>
+            Curabitur tempus eu quam vel pulvinar. Vivamus egestas vehicula risus quis facilisis. Morbi varius turpis ut felis pharetra, eu sagittis nisl egestas. Duis in molestie leo. Praesent elementum varius elementum. Aliquam gravida metus nec ex dignissim aliquet. Nulla vel eleifend ante.
+          </p>
+        </div>
+        <div class="benefit col-sm-4">
+          <i class="material-icons">share</i>
+          <p>
+            Quisque tempus fermentum sem, a rutrum neque. Mauris id tellus mauris. Proin ut pretium odio. Nullam pharetra dignissim hendrerit. Nulla blandit eros fringilla, ullamcorper mauris sit amet, fringilla mi. Aenean porta varius elit, congue semper dolor faucibus sed. Vestibulum accumsan, massa in convallis cursus, dui urna porttitor purus.
+          </p>
+        </div>
+      </section>
+
+      <section id="testimonials" class="row">
+        <h2 class="col-xs-12">What Our Users Say About Us</h2>
+        <blockquote class="col-sm-6">
+          <p>
+            Morbi non luctus erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam nec elementum odio, at fermentum massa. Donec vitae ligula in mauris ultricies scelerisque vitae sed nulla. Integer cursus, ante vel cursus malesuada, justo metus accumsan risus, cursus sodales mauris justo a velit. Duis euismod sapien tortor, ac auctor felis viverra lacinia. Etiam luctus augue et ex porttitor rhoncus. Aliquam pulvinar velit quam, in ullamcorper nulla efficitur convallis.
+          </p>
+          <footer>
+            Alice
+          </footer>
+        </blockquote>
+        <blockquote class="col-sm-6">
+          <p>
+            Maecenas eu convallis sem. Aliquam nec volutpat turpis, a hendrerit orci. Suspendisse dapibus nulla non convallis condimentum. Integer et ultricies eros, ac auctor lacus. Phasellus suscipit pellentesque tortor vitae scelerisque. Integer congue orci porta mauris elementum aliquam. Pellentesque mollis magna sed odio ornare porta. Phasellus tempor felis congue urna hendrerit ornare. Pellentesque a ligula eget nibh congue vestibulum sed quis purus. Donec sapien mauris, lobortis eu varius nec, pretium id tellus.
+          </p>
+          <footer>
+            Bob
+          </footer>
+        </blockquote>
+      </section>
+      </div>
+    </main>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

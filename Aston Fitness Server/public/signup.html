@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fitness Landing page: Sign up page </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link href="css/layout.css" rel="stylesheet"/>
+  <script src= "js/validate_password.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <nav id="main-header" class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+      <!-- the button element creates a hamburger menu-->
+        <button type="button"
+        class="navbar-toggle collapsed"
+        data-toggle="collapse"
+        data-target="#sign-in-toggle"
+        aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <div class="navbar-brand">FASTON</div>
+      </div>
+      <div class="collapse navbar-collapse" id="sign-in-toggle">
+        <form id="sign-in" class="navbar-form navbar-right">
+          <input type="email"
+          name="email"
+          placeholder="Email"
+          class="form-control"
+          required
+          pattern=".+(\.ac\.uk|\.edu)"
+          title="Please enter a UK or US student email"/>
+          <input type="password"
+          name="password"
+          class="form-control"
+          placeholder="Password"
+          required/>
+          <input type="submit"
+          class = "btn btn-success"
+          value="Sign In"/>
+          </form>
+      </div>
+    </div>
+  </nav>
+  <main>
+  <div class="collapse navbar-collapse" id="sign-up-toggle">
+    <form id="sign-up" class="navbar-form navbar">
+  <input type="email"
+    placeholder="Email"
+    required
+    pattern=".+(\.ac\.uk|\.edu)"
+    title="Please ensure that email contains @ and has a domain of .ac.uk or .edu"/>
+  <input type="password"
+    placeholder="Password"
+    name="pass"
+    required/>
+    <input type="password"
+    placeholder="Confirm Password"
+    name="confirm_pass"
+    required/>
+  <input type="submit"
+    class = "btn btn-success"
+    value="Signup"/>
+      </form>
+    </main>
+  </body>
+</html>

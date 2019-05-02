@@ -1,0 +1,23 @@
+var word_counts = [
+  {count:97, word:"karp"},
+  {count:79, word:"that"},
+  {count:42, word:"with"},
+  {count:37, word:"glue"},
+  {count:23, word:"would"},
+  {count:22, word:"from"},
+  {count:21, word:"this"},
+  {count:21, word:"said"},
+  {count:20, word:"which"},
+  {count:20, word:"surgical"},
+  {count:19, word:"told"},
+  {count:18, word:"tissue"},
+  {count:18, word:"they"},
+  {count:17, word:"when"},
+  {count:16, word:"more"},
+  {count:16, word:"could"},
+  {count:16, word:"blood"},
+  {count:13, word:"pereira"},
+  {count:13, word:"nature"},
+  {count:13, word:"like"},
+  {count:13, word:"inside"}
+];

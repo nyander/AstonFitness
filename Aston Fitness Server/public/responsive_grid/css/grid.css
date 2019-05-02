@@ -1,0 +1,41 @@
+
+* {box-sizing: border-box;}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-6,
+.col-lg-12 {width: 100%}
+
+
+  .container {
+  width: 768px;
+  margin: 0 auto;
+  }
+
+@media (min-width: 992px) {
+  .container {
+  width: 992px;
+  margin: 0 auto;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+  }
+  .col-md-6 {width: 50%;}
+}
+
+@media (min-width: 1200px) {
+  .container {
+  width: 1200px;
+  margin: 0 auto;
+  }
+
+}
